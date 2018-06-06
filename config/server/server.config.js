@@ -7,7 +7,7 @@ const config = {
     root: rootPath,
     host : process.env.SERVER_HOST,
     port: parseInt(process.env.SERVER_PORT, 10) || 3000,
-    title: 'Stimpy Medium',
+    title: 'Food Tasker',
     hapi: {
         options: {
             routes: {
